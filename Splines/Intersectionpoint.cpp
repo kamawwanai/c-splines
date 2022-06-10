@@ -4,6 +4,7 @@
 #include "Spline.h"
 #include <math.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 double function(Polinom f, double x) {
 	double res = f.third * x * x * x + f.second * x * x + f.first * x + f.zero;

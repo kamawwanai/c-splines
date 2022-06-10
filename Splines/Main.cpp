@@ -3,6 +3,7 @@
 #include "Spline.h"
 #include <stdlib.h>
 #include "Intersectionpoint.h"
+#include <stdio.h>
 
 void get_array_values(double* array, int size) {
 	for (int i = 0; i < size; i++)
